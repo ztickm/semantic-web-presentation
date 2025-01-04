@@ -1,11 +1,16 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# The semantic web, what's that?
 
-To start the slide show:
+Visit https://www.smhb.me/semantic-web-presentation/ to go through the slides, some of them are interactive !
 
+To start the slide show locally:
+
+- clone the repo
 - `npm install`
 - `npm run dev`
 - visit <http://localhost:3030>
 
-Edit the [slides.md](./slides.md) to see the changes.
+You can also read the [slides.md file](./slides.md) if you prefer.
+
+## Powered by Slidev
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
