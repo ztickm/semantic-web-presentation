@@ -1,0 +1,37 @@
+<rdf:RDF xmlns:rdf="http://www.w4.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ex="http://example.org/">
+
+  <rdf:Description rdf:about="http://example.org/Bujayr_the_Bedouin">
+    <foaf:name>Bujayr the Bedouin</foaf:name>
+    <ex:owns rdf:resource="http://example.org/Cecil_the_Camel" />
+    <ex:livesIn rdf:resource="http://example.org/Desert" />
+    <ex:occupation>Nomad Shepherd</ex:occupation>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Cecil_the_Camel">
+    <foaf:name>Cecil the Camel</foaf:name>
+    <ex:type rdf:resource="http://example2.org/Animal" />
+    <ex:habitat rdf:resource="http://example.org/Desert" />
+    <ex:usedFor rdf:resource="http://example.org/Transportation" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/Toyota4x4">
+    <foaf:name>Toyota 4x4</foaf:name>
+    <ex:type rdf:resource="http://example2.org/Car" />
+    <ex:engine rdf:resource="http://example.org/V6_diesel_engine" />
+    <ex:usedFor rdf:resource="http://example.org/Transportation" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/FennecFox">
+    <foaf:name>Fennec Fox</foaf:name>
+    <ex:type rdf:resource="http://example2.org/Animal" />
+    <ex:habitat rdf:resource="http://example.org/Desert" />
+    <ex:alimentation rdf:resource="http://example2.org/Omnivore" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example2.org/Omnivore">
+    <foaf:name>Omnivore</foaf:name>
+    <ex:subsetOf rdf:resource="http://example2.org/Animal" />
+  </rdf:Description>
+</rdf:RDF>
